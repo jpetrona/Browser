@@ -210,6 +210,7 @@
     <string name="shortcut_bookmark_title">Choose a bookmark</string>
     <!-- Menu item to display the History of previously visited pages -->
     <string name="history">History</string>
+    <string name="exit">Exit</string>
     <!-- Menu item for viewing downloads from the browser -->
     <string name="menu_view_download">Downloads</string>
     <!-- Context menu item for copying the url of the current page from the
@@ -662,7 +663,7 @@
     <string name="pref_data_preload_value_never" translatable="false">NEVER</string>
     <string name="pref_data_preload_value_wifi_only" translatable="false">WIFI_ONLY</string>
     <string name="pref_data_preload_value_always" translatable="false">ALWAYS</string>
-    <string name="pref_data_preload_default_value" translatable="false">@string/pref_data_preload_value_wifi_only</string>
+    <string name="pref_data_preload_default_value" translatable="false">@string/pref_data_preload_value_never</string>
     <string-array name="pref_data_preload_values" translatable="false">
         <item><xliff:g>@string/pref_data_preload_value_never</xliff:g></item>
         <item><xliff:g>@string/pref_data_preload_value_wifi_only</xliff:g></item>
@@ -684,7 +685,7 @@
     <string name="pref_link_prefetch_value_never" translatable="false">NEVER</string>
     <string name="pref_link_prefetch_value_wifi_only" translatable="false">WIFI_ONLY</string>
     <string name="pref_link_prefetch_value_always" translatable="false">ALWAYS</string>
-    <string name="pref_link_prefetch_default_value" translatable="false">@string/pref_link_prefetch_value_wifi_only</string>
+    <string name="pref_link_prefetch_default_value" translatable="false">@string/pref_link_prefetch_value_never</string>
     <string-array name="pref_link_prefetch_values" translatable="false">
         <item><xliff:g>@string/pref_link_prefetch_value_never</xliff:g></item>
         <item><xliff:g>@string/pref_link_prefetch_value_wifi_only</xliff:g></item>
@@ -795,16 +796,28 @@
 
     <!-- The default homepage. -->
     <string name="homepage_base" translatable="false">
-        https://www.google.com/webhp?client={CID}&amp;source=android-home</string>
+        https://wtfismyip.com</string>
 
     <!-- Bookmarks -->
     <string-array name="bookmarks" translatable="false">
-        <item>Google</item>
-        <item>http://www.google.com</item>
-        <item>CyanogenMod</item>
-        <item>http://www.cyanogenmod.org</item>
-        <item>CyanogenMod Wiki</item>
-        <item>http://wiki.cyanogenmod.org/w/Main_Page</item>
+        <item>Duck</item>
+        <item>https://www.duckduckgo.com</item>
+        <item>Flight</item>
+        <item>https://de.flightaware.com/live/airport/EDDF</item>
+        <item>Unsplash</item>
+        <item>https://unsplash.com/</item>
+        <item>Photos</item>
+        <item>https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b</item>
+        <item>Electronik</item>
+        <item>http://www.mydealz.de/elektronik-deals-new</item>
+        <item>BSD</item>
+        <item>https://feeds.feedburner.com/BsdNowMp3</item>
+        <item>NPR</item>
+        <item>http://waitwait.npr.libsynfusion.com</item>
+        <item>BBC</item>
+        <item>http://www.bbc.co.uk/podcasts/radio4</item>
+
+
     </string-array>
 
     <!-- The description of the suggestion that lets the user search the web for the query currently

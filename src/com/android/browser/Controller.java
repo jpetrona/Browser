@@ -1687,6 +1687,20 @@ public class Controller
                 showPageInfo();
                 break;
 
+            case R.id.exit_menu_id:
+// clear everything here
+                Toast.makeText(mActivity, "Clearing app data",
+                            Toast.LENGTH_SHORT).show();
+                try {
+                    // clearing app data
+                    Runtime runtime = Runtime.getRuntime();
+                    runtime.exec("pm clear com.android.browser");
+                        } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                mActivity.finish();
+                break;
+
             case R.id.snapshot_go_live:
                 goLive();
                 return true;

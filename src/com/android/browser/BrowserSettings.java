@@ -806,11 +806,11 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
     }
 
     public boolean enableGeolocation() {
-        return mPrefs.getBoolean(PREF_ENABLE_GEOLOCATION, true);
+        return mPrefs.getBoolean(PREF_ENABLE_GEOLOCATION, false);
     }
 
     public boolean rememberPasswords() {
-        return mPrefs.getBoolean(PREF_REMEMBER_PASSWORDS, true);
+        return mPrefs.getBoolean(PREF_REMEMBER_PASSWORDS, false);
     }
 
     // -----------------------------

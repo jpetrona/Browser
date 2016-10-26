@@ -54,6 +54,9 @@
         <group
             android:id="@+id/LIVE_MENU">
             <item
+                android:id="@+id/exit_menu_id"
+                android:title="@string/exit"/>
+            <item
                 android:id="@+id/share_page_menu_id"
                 android:title="@string/share_page"
                 android:icon="@drawable/ic_share"
